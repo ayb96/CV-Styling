@@ -46,6 +46,9 @@ h3{
 header{
     background-color: rgb(180, 164, 164);
 }
+.experience-date-separator{
+    color: red;
+}
 
 .content{
     
