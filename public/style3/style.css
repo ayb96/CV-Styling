@@ -1,0 +1,273 @@
+
+
+
+
+
+header div{
+    display: flex;
+    margin-left: 150px;
+}
+hgroup{
+    color: red;
+    margin-top: 10px;
+    margin-left: -100px;
+    
+}
+
+.contacts{
+    position: absolute;
+    top: 20px;
+    right: 8px;
+    margin:0px;
+    width: 50%;
+    line-height: 10px;
+}
+.experience-location::before{
+    content:"In";
+}
+.experience-location::after{
+    content:"on";
+}
+.experience-institution::before, .experience-institution{
+    content: "@ ";
+    color: rgb(209, 17, 17);
+    font-weight: normal;
+}
+
+.experience-details{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+h3{
+    box-sizing: border-box;
+    padding-bottom: 7px;
+}
+
+
+header{
+    background-color: rgb(180, 164, 164);
+}
+.experience-date-separator{
+    color: red;
+}
+
+.content{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+.contact-skype .contact-value{
+    color: black;
+}
+.day, .month, .year, .experience-location{
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    border-bottom: 1px rgb(219, 209, 209) solid;
+}
+h4{
+    color: red;
+}
+
+
+#contact h3{
+    display: None;
+}
+
+dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    line-height: 1.4em;
+    margin: 0px;
+}
+dt {
+    width :21%;
+}
+dd{
+    margin-left: auto;
+    width :79%;
+ 
+} 
+.contact-type{
+    background-color: red;
+    color: white;
+}
+.contact-value{
+    background-color: black;
+    color:red;
+}
+a{
+    color: red;
+}
+
+
+
+.skill{
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgb(201, 183, 183);
+    margin-bottom: 2px;
+    color: white;
+    
+}
+
+
+[data-skill="5"] span{
+    
+    background-color: rgb(255, 67, 67);
+    display: block;
+    width: 50%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+[data-skill="5"] span{
+    
+    background-color: red;
+    display: block;
+    width: 50%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+[data-skill="3"] span{
+    
+    background-color: red;
+    display: block;
+    width: 30%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+[data-skill="1"] span{
+    
+    background-color: red;
+    display: block;
+    width: 10%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}
+[data-skill="9"] span{
+    
+    background-color: red;
+    display: block;
+    width: 90%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+[data-skill="7"] span{
+    
+    background-color: red;
+    display: block;
+    width: 70%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+}
+h3::before{
+    content:"\1F534";
+    color: red;
+    margin-right: 5px;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+.skills-primary::before{
+    content:"Main";
+    position: relative;
+    right: 3px;
+    bottom: 3px;
+    font-family: sans-serif;
+    
+}
+.skills-secondary::before{
+    content:"Other";
+    position: relative;
+    right: 3px;
+    bottom: 3px;
+    font-family: sans-serif;
+    
+}
+.skills-secondary{
+    opacity: 0.7;
+    margin-top: 15px;
+
+}
+figure{
+    display: none;
+}
+
+
+@media(max-width:450px){
+    .content{
+    grid-template-columns: 1fr;
+    
+    }
+    .contacts{
+    position: unset;
+    width: 100%;
+    }
+    .contact-value{
+    background-color: white;
+    color:red;
+    }
+    #contact h3{
+    display: block;
+    }
+    .content{
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    hgroup{
+    margin-left: -120px;
+    font-size: 10px;
+    height: 80px;
+    }
+    header{
+    margin-bottom: 40px;
+    }
+    dt {
+    width :33%;
+    }
+    dd{
+    margin-left: auto;
+    width :67%;
+    } 
+    
+}
+    
+@media(max-width:1100px){
+    header div{
+    display: flex;
+    flex-direction: column;
+    }
+    figure{
+    display: none;
+    }
+}
+
+
+
+
+
+
+
